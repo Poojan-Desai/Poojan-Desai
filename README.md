@@ -1,36 +1,59 @@
-# Hi, I'm Poojan Desai
+# Poojan Desai
 
-Computer Science student at Temple University building practical software across data, AI-assisted workflows, and backend systems. I care about clear problem framing, testable code, and documenting what a system can—and cannot—do.
+**Computer Science @ Temple University**<br>
+Building software, data & AI systems
 
-I'm seeking **2027 internships** in software engineering, data/AI, and technology consulting.
+**Python • Java • SQL • JavaScript • React • FastAPI • Node.js**
 
-## Selected projects
+I'm preparing for 2027 internships across software engineering, Data & AI, and
+technology consulting. I like projects where model or system output must become
+a clear, testable decision—not just a demo screen.
 
-### [AI Career Assistant](https://github.com/Poojan-Desai/ai-resume-analyzer)
+## Featured work
 
-Full-stack React, TypeScript, FastAPI, and SQLAlchemy application for resume parsing, job comparison, AI-assisted feedback, cover-letter drafts, and application tracking. The README documents the prototype's authentication and data-privacy boundaries.
+### [FraudLens](https://fraudlens.mannered.chatgpt.site) — explainable fraud strategy & ML decisions
 
-### [R6 AI Coach](https://github.com/Poojan-Desai/r6-ai-coach) — active prototype
+Interactive fraud strategy simulator for exploring how a risk threshold changes
+fraud captured, legitimate-customer friction, manual review volume, and modeled
+financial cost. The demo includes transaction-level explanations, Logistic
+Regression and calibrated XGBoost comparison, and six simulated attack
+scenarios built around a clearly labeled 75,000-transaction synthetic strategy
+run.
 
-Human-in-the-loop gameplay analysis with OpenCV, FastAPI, React, SQLite, manual frame labeling, YOLO dataset export, and automated backend tests. Reliable enemy/HUD detection is still in training and evaluation; the repository does not claim an untrained model works.
+**Data note:** I do not claim validated OpenML benchmark results here. The live
+demo's strategy data is synthetic, and benchmark claims should remain separate
+until reproducible benchmark outputs are published with the source.
+
+### [R6 Creator AI](https://github.com/Poojan-Desai/r6-creator-ai) — active development
+
+Local-first Next.js, TypeScript, SQLite, and FFmpeg workspace for streamed
+gameplay uploads, video metadata, byte-range playback, manual clipping, clip
+downloads, and persistent projects. Its 270-test suite and production build
+pass. Gameplay-event detection, automatic highlight selection/editing, and
+Match Replay compatibility remain experimental and are not presented as
+reliable.
 
 ### [Network Traffic Analyzer](https://github.com/Poojan-Desai/Network-packet-sniffer)
 
-Scapy command-line tool for live packet capture or offline PCAP analysis, with JSON/CSV reporting and synthetic-packet tests that do not require privileged network access.
+Python and Scapy command-line tool for live packet capture and offline PCAP
+analysis, with protocol summaries, JSON/CSV reporting, synthetic-packet tests,
+and continuous integration.
 
-## Current focus
+## Toolkit
 
-- Turning R6 AI Coach's manual-label workflow into a real evaluated computer-vision pipeline
-- Planning **FraudLens**, an explainable fraud decision and strategy simulator; no implementation is being claimed yet
-- Strengthening testing, data handling, and deployment fundamentals across full-stack projects
+- **Languages:** Python, Java, SQL, JavaScript, TypeScript
+- **Application development:** React, Next.js, FastAPI, Node.js, REST APIs
+- **Data and ML:** pandas, NumPy, scikit-learn, XGBoost, model evaluation
+- **Databases and systems:** SQLite, MySQL, Linux, Git/GitHub, networking
 
-## Working toolkit
+## Certifications & training
 
-- **Languages:** Python, TypeScript, JavaScript, SQL, HTML/CSS
-- **Application development:** FastAPI, React, Express, REST APIs, SQLAlchemy, SQLite
-- **Data and applied AI:** pandas, scikit-learn, OpenCV, Scapy, model-assisted workflows
-- **Engineering:** Git, automated tests, CI, API documentation, environment-based configuration
+Cisco Networking Academy course credentials:
 
-## What I'm looking for
+- CCNA: Introduction to Networks
+- CCNA: Switching, Routing & Wireless Essentials
+- Introduction to Cybersecurity
 
-I'm especially interested in teams where software, data, and business decisions meet: financial technology, fraud/risk systems, developer tools, internal platforms, and client-facing technology transformation.
+## Contact
+
+[Email](mailto:poojandesai7@yahoo.com) · [GitHub](https://github.com/Poojan-Desai)
