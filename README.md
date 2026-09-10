@@ -1,76 +1,109 @@
 # Poojan Desai
 
 **Computer Science @ Temple University**<br>
-Building software, data & AI systems
+Building software, AI/ML, and data systems — from backend APIs to usable applications.
 
-**Python • TypeScript • SQL • React • FastAPI • Next.js • AWS • Snowflake • dbt**
+**Python • TypeScript • Swift • SQL • React • Next.js • FastAPI • SwiftUI**
 
-I'm preparing for 2027 internships across software engineering, Data & AI, and
-technology consulting. I like projects where model or system output must become
-a clear, testable decision—not just a demo screen.
+I'm preparing for **2027 internships in software engineering, AI/ML, data engineering,
+and backend/full-stack development**, with an interest in technology consulting.
+I build projects around inspectable results, reliable persistence, and tests that
+exercise real workflows.
+
+[Try R6 Creator Studio](https://r6-creator-studio-poojan.netlify.app/studio/) ·
+[Explore LumaDesk](https://github.com/Poojan-Desai/lumadesk) ·
+[Email](mailto:poojandesai7@yahoo.com)
 
 ## Featured work
 
-### [GovernAI](https://github.com/Poojan-Desai/governai) — evidence-first Data & AI governance
+### [R6 Creator AI](https://github.com/Poojan-Desai/r6-creator-ai) — video editing, local AI, and media systems
 
-Enterprise-style governance platform built with deterministic simulated banking
-data. It traces data from quality gates and quarantine through S3/Snowflake/dbt
+A gameplay workspace with a **live browser editor** and a full local studio.
+The browser supports local video import, timestamped clips, preview/export,
+saved projects, and on-device MiniLM semantic search. The local studio uses
+**Next.js/React, TypeScript, SQLite/Prisma, FFmpeg, and whisper.cpp** for streamed
+media, background jobs, transcription, non-destructive timelines, narration,
+and gameplay exports, including verified 1080p output.
+
+- Six writing outputs, 29 structured style characteristics, and reusable style profiles.
+- Source-linked map context for 28 maps, including District.
+- September 8 verification: **329 tests across 75 files**, 14 browser checks,
+  and an exercised H.264/AAC browser export. Gameplay detection and replay
+  compatibility retain explicit research limitations.
+
+[Live editor](https://r6-creator-studio-poojan.netlify.app/studio/) ·
+[Search & review companion](https://r6-creator-studio-poojan.netlify.app) ·
+[Browser verification](https://github.com/Poojan-Desai/r6-creator-ai/blob/main/docs/WEB-STUDIO.md)
+
+### [LumaDesk](https://github.com/Poojan-Desai/lumadesk) — native macOS document search
+
+A **SwiftUI/AppKit** workspace that imports notes, PDFs, and scans, performs
+on-device **Vision OCR**, and combines BM25 keyword ranking with
+**NaturalLanguage semantic retrieval**. Results retain their source and page;
+Markdown exports keep those citations. Processing stays on the Mac, with no
+account, hosted backend, or external AI service.
+
+Built with actor-isolated retrieval, background document processing, atomic
+local persistence, and graceful keyword fallback. **32 shared validation checks
+passed**, including real OCR fixtures; GitHub CI passed. **v0.1.0** is a preview
+release, not a notarized production app. It retrieves source passages rather
+than generating conversational answers.
+
+[Preview release](https://github.com/Poojan-Desai/lumadesk/releases/tag/v0.1.0) ·
+[Engineering walkthrough](https://github.com/Poojan-Desai/lumadesk/blob/main/PORTFOLIO.md)
+
+### [GovernAI](https://github.com/Poojan-Desai/governai) — data engineering and AI governance
+
+An evidence-first governance platform built with deterministic **simulated
+banking data**. It traces quality gates and quarantine through S3/Snowflake/dbt
 definitions, catalog and lineage evidence, privacy controls, experimentation,
-governed analytics, and responsible-model approval gates. The repository keeps
-local verification separate from unperformed cloud claims and passes 39
-backend/web contract checks plus its production build.
+governed analytics, and responsible-model approval gates. **39 backend/web
+contract checks** and the production build passed. Local verification is
+separate from AWS/Snowflake/dbt cloud execution that has not been performed.
 
-### [R6 Creator AI](https://github.com/Poojan-Desai/r6-creator-ai) — local-first media systems
+### [AI Career Assistant](https://github.com/Poojan-Desai/ai-resume-analyzer) — backend and full-stack workflows
 
-Next.js, TypeScript, SQLite, Prisma, and FFmpeg workspace for streamed gameplay
-media, byte-range playback, evidence-bounded candidate review, non-destructive
-editing, short/long-form rendering, voiceover, and coaching research. Its 270
-tests, strict TypeScript, lint, formatting, production build, and dependency
-audit pass. Experimental detector/replay boundaries remain labeled honestly.
+A **React/TypeScript, FastAPI, and SQLAlchemy** application for resume parsing,
+structured feedback, job comparison, writing support, and application tracking.
+Strict **Pydantic** schemas validate AI output before persistence. CI passed
+**22 backend tests** with mocked provider boundaries, frontend lint, and the
+production build.
 
-### [AI Career Assistant](https://github.com/Poojan-Desai/ai-resume-analyzer) — full-stack workflow
+### [FraudLens](https://fraudlens.mannered.chatgpt.site) — explainable fraud strategy and ML decisions
 
-React/TypeScript and FastAPI application for resume parsing, structured
-feedback, job comparison, writing support, and application tracking. Structured
-AI output is validated with strict Pydantic schemas before persistence; backend
-tests run with mocked provider boundaries, while frontend lint and production
-builds run in CI.
+An interactive simulator for exploring how risk thresholds affect fraud captured,
+legitimate-customer friction, manual review volume, and modeled financial cost.
+The demo includes transaction-level explanations, Logistic Regression and
+calibrated XGBoost comparison, and six simulated attack scenarios around a
+clearly labeled **75,000-transaction synthetic strategy run**.
 
-### [FraudLens](https://fraudlens.mannered.chatgpt.site) — explainable fraud strategy & ML decisions
+The strategy data is synthetic. I do not claim validated OpenML benchmark
+results; reproducible benchmark outputs need to be published with source before
+making those claims.
 
-Interactive fraud strategy simulator for exploring how a risk threshold changes
-fraud captured, legitimate-customer friction, manual review volume, and modeled
-financial cost. The demo includes transaction-level explanations, Logistic
-Regression and calibrated XGBoost comparison, and six simulated attack
-scenarios built around a clearly labeled 75,000-transaction synthetic strategy
-run.
-
-**Data note:** I do not claim validated OpenML benchmark results here. The live
-demo's strategy data is synthetic, and benchmark claims should remain separate
-until reproducible benchmark outputs are published with the source.
-
-## Additional verified projects
+## Additional projects
 
 - [Network Traffic Analyzer](https://github.com/Poojan-Desai/Network-packet-sniffer):
   Scapy CLI for live/offline PCAP analysis with IPv4/IPv6, endpoint,
   conversation, port, and TCP-flag summaries without exporting payloads.
 - [Monte Carlo Market Scenario Simulator](https://github.com/Poojan-Desai/monte-carlo-market-simulator):
-  reproducible bootstrap paths with terminal distributions and explicit
-  downside-tail indicators—clearly labeled as scenario analysis, not forecasts.
+  reproducible bootstrap paths, terminal distributions, and explicit
+  downside-tail indicators for scenario analysis rather than forecasting.
 - [Used Car Price Predictor](https://github.com/Poojan-Desai/ai-used-car-price-predictor):
   mixed-feature scikit-learn pipeline evaluated against a median baseline and
   three-fold cross-validation on a deliberately small learning dataset.
 - [Smart Flashcards](https://github.com/Poojan-Desai/ai-smart-flashcards): local
-  Streamlit/SQLite spaced-repetition app with idempotent CSV imports and an
-  optional API-assisted hint boundary.
+  Streamlit/SQLite spaced repetition with idempotent CSV imports and optional
+  API-assisted hints.
 
 ## Toolkit
 
-- **Languages:** Python, Java, SQL, JavaScript, TypeScript
-- **Application development:** React, Next.js, FastAPI, Node.js, REST APIs
-- **Data and ML:** pandas, NumPy, scikit-learn, experimentation, model evaluation
-- **Data platforms:** SQL, Snowflake, dbt, AWS S3, data quality, lineage, governance
-- **Databases and systems:** SQLite, MySQL, Linux, GitHub Actions, networking
+- **Languages:** Python, Java, SQL, JavaScript, TypeScript, Swift
+- **Application development:** React, Next.js, FastAPI, Node.js, REST APIs, SwiftUI, AppKit
+- **AI and ML:** pandas, NumPy, scikit-learn, OCR, semantic retrieval, experimentation, model evaluation
+- **Data platforms:** Snowflake, dbt, AWS S3, data quality, lineage, governance
+- **Databases and systems:** SQLite, MySQL, SQLAlchemy, Prisma, Linux, GitHub Actions, networking
+- **Media processing:** FFmpeg, FFprobe, whisper.cpp, WebCodecs
 
 ## Certifications & training
 
@@ -82,4 +115,5 @@ Cisco Networking Academy course credentials:
 
 ## Contact
 
+[LinkedIn](https://www.linkedin.com/in/poojan-desai-408a35350/) ·
 [Email](mailto:poojandesai7@yahoo.com) · [GitHub](https://github.com/Poojan-Desai)
