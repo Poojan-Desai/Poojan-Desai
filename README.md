@@ -65,9 +65,8 @@ separate from AWS/Snowflake/dbt cloud execution that has not been performed.
 
 A **React/TypeScript, FastAPI, and SQLAlchemy** application for resume parsing,
 structured feedback, job comparison, writing support, and application tracking.
-Strict **Pydantic** schemas validate AI output before persistence. CI passed
-**22 backend tests** with mocked provider boundaries, frontend lint, and the
-production build.
+Strict **Pydantic** schemas validate AI output before persistence. Default-branch
+CI passes the backend test suite, frontend lint, and the production build.
 
 ### [FraudLens](https://fraudlens.mannered.chatgpt.site) — explainable fraud strategy and ML decisions
 
